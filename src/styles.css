@@ -275,20 +275,36 @@ margin-left: auto;
     padding: 0;
   }
 }
-@media all and (max-width: 400px) {
+@media all and (max-width: 450px) {
+  .mv-header i{
+    font-size: 30px;
+  }
+  .mv-header h1{
+    margin : 0 0 0 10px;    
+    padding: 10px 0 7px 0;
+    font-size: 25px;
+  }
+  .mv-header select{
+    font-size: 1.0em;
+    margin-right: 10px;
+    padding: .25em;
+
+  }
+
+  .Modal {
+    /* top: unset; */
+    position: absolute;
+
+    top: 320px;
+    margin: 0 auto;
+    padding: 10px 10px;
+  }
   .Modal i {
     top: 10px;
     right: 10px;
     font-size: 20px;
   }
-  .Modal {
-    /* top: unset; */
-    position: absolute;
 
-    top: 270px;
-    margin: 0 auto;
-    padding: 10px 10px;
-  }
   .modal-container {
     /* background-color: red; */
     max-height: 400px;
